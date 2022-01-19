@@ -11,7 +11,7 @@ public class DebugTwelve1
         result = Math.log(num);
         System.out.println("Result is " + result);
      }
-     catch()
+     catch(Exception e)
      {
         System.out.println("Can't take logarithm for value of zero or lower");
      }

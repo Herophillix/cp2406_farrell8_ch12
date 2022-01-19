@@ -3,7 +3,7 @@ class UninitializedVariableTest
 {
    static void main(String[] args)
    {
-      int x;
+      int x = 0;
       Scanner input = new Scanner(System.in);
       try
       {
